@@ -5,8 +5,8 @@ description = ""
 authors = ["Xinyuan Chen <45612704+tddschn@users.noreply.github.com>"]
 license = "MIT"
 readme = "README.md"
-homepage = "https://github.com/tddschn/trove-classifers-cli"
-repository = "https://github.com/tddschn/trove-classifers-cli"
+homepage = "https://github.com/tddschn/trove-classifiers-cli"
+repository = "https://github.com/tddschn/trove-classifiers-cli"
 classifiers = [
 	"Topic :: Utilities",
 	"License :: OSI Approved :: MIT License",
@@ -15,7 +15,7 @@ classifiers = [
 keywords = ["cli", "trove-classifiers"]
 
 [tool.poetry.urls]
-"Bug Tracker" = "https://github.com/tddschn/trove-classifers-cli/issues"
+"Bug Tracker" = "https://github.com/tddschn/trove-classifiers-cli/issues"
 
 [tool.poetry.scripts]
 trove-classifiers = "trove_classifiers_cli.cli:main"
