@@ -16,7 +16,7 @@ keywords = ["cli", "trove-classifiers"]
 "Bug Tracker" = "https://github.com/tddschn/trove-classifers-cli/issues"
 
 [tool.poetry.scripts]
-trove-classifers = "trove_classifers_cli.cli:main"
+trove-classifers = "trove_classifiers_cli.cli:main"
 
 [tool.poetry.dependencies]
 python = "^3.10"
@@ -28,6 +28,8 @@ toml = "^0.10.2"
 yapf = "^0.32.0"
 better-exceptions = "^0.3.3"
 bump2version = "^1.0.1"
+icecream = "^2.1.2"
+pyinstrument = "^4.1.1"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
