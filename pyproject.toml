@@ -16,7 +16,7 @@ keywords = ["cli", "trove-classifiers"]
 "Bug Tracker" = "https://github.com/tddschn/trove-classifers-cli/issues"
 
 [tool.poetry.scripts]
-trove-classifers = "trove_classifiers_cli.cli:main"
+trove-classifiers = "trove_classifiers_cli.cli:main"
 
 [tool.poetry.dependencies]
 python = "^3.10"

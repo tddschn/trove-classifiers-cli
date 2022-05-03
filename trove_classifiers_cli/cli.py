@@ -23,7 +23,7 @@ def get_args():
     """Get command-line arguments"""
 
     parser = argparse.ArgumentParser(
-        description='Why not?',
+        description='CLI for PyPI Trove Classifiers',
         formatter_class=argparse.ArgumentDefaultsHelpFormatter)
 
     parser.add_argument('match',
