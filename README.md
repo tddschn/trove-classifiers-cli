@@ -3,11 +3,31 @@
 CLI for PyPI Trove Classifiers
 
 - [Trove Classifiers CLI](#trove-classifiers-cli)
+	- [Installation](#installation)
+		- [pipx](#pipx)
+		- [pip](#pip)
 	- [Usage](#usage)
 	- [Examples](#examples)
 		- [Basic usage](#basic-usage)
 		- [--tree](#--tree)
 		- [--quoted-list](#--quoted-list)
+
+## Installation
+
+### pipx
+
+This is the recommended installation method.
+
+```
+$ pipx install trove-classifiers-cli
+```
+
+### [pip](https://pypi.org/project/trove-classifiers-cli/)
+
+```
+$ pip install trove-classifiers-cli
+```
+
 ## Usage
 
 ```
